@@ -4,8 +4,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#f58686"
+    android:orientation="vertical"
     tools:context="org.techtown.activitytest.MainActivity">
-
+    <TextView
+        android:id="@+id/text_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        />
     <Button
         android:id="@+id/but_back"
         android:layout_width="match_parent"
